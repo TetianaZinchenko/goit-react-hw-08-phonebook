@@ -7,7 +7,7 @@ import { ImCross } from 'react-icons/im';
 import IconButton from '../IconButton';
 import { FilterWrapper, Input, Label } from './Filter.styled';
 
-import { setFilter, resetFilter } from 'redux/filterSlice';
+import { setFilter, resetFilter } from 'redux/contacts/filterSlice';
 
 import * as selectors from 'redux/contacts/selectors';
 

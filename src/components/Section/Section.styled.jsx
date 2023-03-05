@@ -9,4 +9,5 @@ export const Title = styled.h2`
   font-size: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #400080;
 `;

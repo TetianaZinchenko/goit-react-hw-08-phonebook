@@ -8,7 +8,6 @@ export const IconButtonStyle = styled.button`
   padding: 10px;
   background-color: #400080;
   color: #ffffff;
-
   cursor: pointer;
 
   & svg {

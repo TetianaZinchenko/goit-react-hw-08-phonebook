@@ -11,6 +11,7 @@ export const FormField = styled.div`
   flex-direction: column;
   margin-right: 5px;
   align-items: center;
+  margin-bottom: 10px;
 `;
 
 export const Input = styled(Field)`

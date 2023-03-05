@@ -18,7 +18,6 @@ export const MainContainer = styled.div`
 
 export const Container = styled.div`
   margin-right: 24px;
-
   display: flex;
   align-items: center;
 `;
@@ -27,7 +26,6 @@ export const ContactName = styled.span`
   flex-grow: 1;
   text-transform: capitalize;
   font-size: 18px;
-
   margin-left: 8px;
 `;
 

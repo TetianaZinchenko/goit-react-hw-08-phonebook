@@ -1,4 +1,5 @@
 import { Layout } from 'components/Layout';
+import { Loader } from 'components/Loader';
 import { PrivateRoute } from 'components/PrivateRoute';
 import { RestrictedRoute } from 'components/RestrictedRoute';
 import { useAuth } from 'hooks';
@@ -21,7 +22,7 @@ const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <b>Refreshing user...</b>
+    <Loader />
   ) : (
     <Routes>
       <Route path="/" element={<Layout />}>

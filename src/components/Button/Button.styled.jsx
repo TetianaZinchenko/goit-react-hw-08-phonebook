@@ -9,7 +9,7 @@ export const FormButton = styled.button`
   background-color: #400080;
   color: #ffffff;
   font-size: 16px;
-  margin-top: 20px;
+ 
   box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.8),
     inset rgba(0, 0, 0, 0.3) -5px -5px 8px 5px,
     inset rgba(255, 255, 255, 0.5) 5px 5px 8px 5px,
